@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gabriel — Multimídia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo-mark" href="index.html"><span class="bracket">&lt;</span>Gabriel<span class="bracket">/&gt;</span></a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="curriculo.html">Currículo</a></li>
+          <li><a href="formulario.html">Contato</a></li>
+          <li><a href="multimidia.html" aria-current="page">Multimídia</a></li>
+          <li><a href="graficos.html">Gráficos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-intro">
+    <div class="page-intro-inner">
+      <p class="eyebrow">Vídeo, áudio e conteúdo incorporado</p>
+      <h1>Multimídia</h1>
+      <p>Exemplos de mídia embutida diretamente na página, sem depender apenas de links externos.</p>
+    </div>
+  </div>
+
+  <main>
+
+    <section aria-labelledby="video-titulo">
+      <h2 id="video-titulo">Vídeo local / HTML5</h2>
+      <video controls preload="metadata">
+        <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+        Seu navegador não suporta a reprodução deste vídeo.
+      </video>
+      <p class="media-caption">Vídeo de exemplo (domínio público, cortesia MDN) usado para demonstrar a tag &lt;video&gt;.</p>
+    </section>
+
+    <section aria-labelledby="audio-titulo">
+      <h2 id="audio-titulo">Áudio</h2>
+      <audio controls preload="metadata">
+        <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3" type="audio/mpeg">
+        Seu navegador não suporta a reprodução deste áudio.
+      </audio>
+      <p class="media-caption">Áudio de exemplo (domínio público, cortesia MDN) usado para demonstrar a tag &lt;audio&gt;.</p>
+    </section>
+
+    <section aria-labelledby="iframe-titulo">
+      <h2 id="iframe-titulo">Vídeo incorporado do YouTube</h2>
+      <iframe
+        src="https://www.youtube.com/embed/9QgRZ0Fa3JM"
+        title="SOM ACELERAÇÃO FERRARI 458"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+      <p class="media-caption">Vídeo do YouTube incorporado via &lt;iframe&gt; (Aceleração Ferrari 458).</p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>Site pessoal desenvolvido em HTML5 e CSS3 como exercício acadêmico (Checkpoint 2).</p>
+      <ul class="footer-links">
+        <li><a href="mailto:gabrielcamposm18@gmail.com">E-mail</a></li>
+        <li><a href="https://github.com/gabrielmonzani" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>

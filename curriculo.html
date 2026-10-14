@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gabriel — Currículo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo-mark" href="index.html"><span class="bracket">&lt;</span>Gabriel<span class="bracket">/&gt;</span></a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="curriculo.html" aria-current="page">Currículo</a></li>
+          <li><a href="formulario.html">Contato</a></li>
+          <li><a href="multimidia.html">Multimídia</a></li>
+          <li><a href="graficos.html">Gráficos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-intro">
+    <div class="page-intro-inner">
+      <p class="eyebrow">Formação, experiência e habilidades</p>
+      <h1>Currículo</h1>
+      <p>Um retrato do que estudei, dos projetos em que trabalhei e das ferramentas que uso no dia a dia.</p>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- Grid com 2 colunas em telas maiores -->
+    <div class="curriculo-grid">
+      <section aria-labelledby="formacao-titulo">
+        <h2 id="formacao-titulo">Formação</h2>
+        <article>
+          <h3>Análise e Desenvolvimento de Sistemas</h3>
+          <p>Centro Universitário Braz Cubas — 1º semestre</p>
+          <ul>
+            <li>Algoritmos e Pensamento Computacional</li>
+            <li>DevOps e Cloud</li>
+            <li>Prototipagem de Sistemas Computacionais</li>
+            <li>Prompt Engineering e Aplicações de IA (com a professora Andréa Ono Sakai)</li>
+          </ul>
+        </article>
+      </section>
+
+      <section aria-labelledby="experiencia-titulo">
+        <h2 id="experiencia-titulo">Projetos e experiência</h2>
+
+        <article>
+          <h3>SalesLens</h3>
+          <p>
+            Aplicação web que analisa transcrições de reuniões de vendas usando IA, retornando insights estruturados
+            como etapas do funil e objeções identificadas pelo cliente.
+          </p>
+        </article>
+
+        <article class="accent">
+          <h3>Monzani &amp; Gomes Consultoria Imobiliária</h3>
+          <p>
+            Site institucional para consultoria imobiliária com integração de dados de imóveis e um chat com IA para
+            atendimento ao cliente.
+          </p>
+          <ul>
+            <li>Backend inicial em Flask, usando a API da Groq</li>
+            <li>Evolução para chamadas à API da Anthropic com busca na web</li>
+            <li>Automação no-code/low-code com n8n, Make e Power Automate</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Análise de dados — elenco de futebol</h3>
+          <p>
+            Projeto em Python usando openpyxl e matplotlib para analisar dados de um elenco de futebol.
+          </p>
+        </article>
+      </section>
+    </div>
+
+    <section aria-labelledby="habilidades-titulo">
+      <h2 id="habilidades-titulo">Habilidades técnicas</h2>
+      <div class="table-wrapper">
+        <table>
+          <caption>Tecnologias que uso e onde já apliquei cada uma</caption>
+          <thead>
+            <tr>
+              <th scope="col">Tecnologia</th>
+              <th scope="col">Nível</th>
+              <th scope="col">Onde já usei</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML5 &amp; CSS3</td>
+              <td>Intermediário</td>
+              <td>Currículo pessoal, site da Monzani &amp; Gomes</td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td>Básico/Intermediário</td>
+              <td>Análise de dados com openpyxl e matplotlib</td>
+            </tr>
+            <tr>
+              <td>Git &amp; GitHub</td>
+              <td>Básico</td>
+              <td>Versionamento dos meus projetos pessoais</td>
+            </tr>
+            <tr>
+              <td>Microsoft Excel</td>
+              <td>Intermediário</td>
+              <td>Exportação de relatórios e planilhas de imóveis</td>
+            </tr>
+            <tr>
+              <td>Azure AI &amp; Machine Learning</td>
+              <td>Básico</td>
+              <td>Estudos em IA aplicada</td>
+            </tr>
+            <tr>
+              <td>Prompt Engineering</td>
+              <td>Intermediário</td>
+              <td>Disciplina do curso e projetos com IA (SalesLens, chat imobiliário)</td>
+            </tr>
+            <tr>
+              <td>Automação (n8n / Make)</td>
+              <td>Básico</td>
+              <td>Fluxos de automação para o site da Monzani &amp; Gomes</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>Site pessoal desenvolvido em HTML5 e CSS3 como exercício acadêmico (Checkpoint 2).</p>
+      <ul class="footer-links">
+        <li><a href="mailto:gabrielcamposm18@gmail.com">E-mail</a></li>
+        <li><a href="https://github.com/gabrielmonzani" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
